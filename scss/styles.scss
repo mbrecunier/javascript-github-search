@@ -1,0 +1,31 @@
+$blue : #e1e6ea;
+$gray : #c3c3bd;
+
+.displays {
+  display: none;
+  background-color: $blue;
+  border: 3px solid $gray;
+  width: 95%;
+  margin-top: 20px;
+}
+
+#show-user-info {
+  img {
+    float: right;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    border-radius: 55%;
+    border: 3px solid $gray;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+#show-user-repos {
+  ul {
+    list-style-type: none;
+  }
+
+}
