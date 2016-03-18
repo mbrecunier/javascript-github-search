@@ -30,7 +30,11 @@ Enter a GitHub username into a form to see information about that user's public 
     ```
 
     ```
-    $ gulp serve --production
+    $ gulp build --production
+    ```
+
+    ```
+    $gulp serve
     ```
 * A new browser should open to localhost:3000
 
