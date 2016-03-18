@@ -1,0 +1,23 @@
+{
+  "name": "javascript-github",
+  "description": "#### Search GitHub for Information, 3/18/2016",
+  "main": "gulpfile.js",
+  "authors": [
+    "Michelle Brecunier"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mbrecunier/javascript-github-search",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  "jquery": "^2.2.1",
+  "bootstrap": "^3.3.6",
+  "moment": "^2.12.0"
+  }
+}
