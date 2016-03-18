@@ -11,29 +11,30 @@
   <body>
     <div class="container-fluid page-header">
         <h1>GitHub User Information</h1>
-      </div>
-      <div class="container">
         <form id="search-form">
           <label for="search-username">Enter a username:</label>
           <input id="search-username" type="text">
           <button type="submit" class="btn-success" id="search-button">Search</button>
         </form>
+      </div>
+      <div class="container">
         <div class="row displays" id="show-user-info">
           <span id="username"></span>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <span id="name"></span>
             <span id="user-location"></span>
             <span id="user-url"></span>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <span id="user-avatar"></span>
           </div>
         </div>
         <div class="row displays" id="show-user-repos">
-          <div class="col-md-6">
+          <h3>Repositories:</h3>
+          <div class="col-sm-6">
             <ul class="user-repositories" id="col-1"></ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <ul class="user-repositories" id="col-2"></ul>
           </div>
         </div>
