@@ -23,7 +23,6 @@ Enter a GitHub username into a form to see information about that user's public 
 
     ```
     $ npm install
-
     ```
 
     ```
