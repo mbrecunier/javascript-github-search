@@ -1,5 +1,5 @@
 exports.getRepos = function(searchUser, apiKey){
-  $.get('https://api.github.com/users/' + searchUser + '?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + searchUser if(apikey !== null) {+ '?access_token=' + apiKey}).then(function(response){
     console.log(response);
     $("#username").html("<h2>User: " + response.login + "</h2>");
     $("#name").html("<h4>Name: " + response.name + "</h4>");
@@ -9,7 +9,7 @@ exports.getRepos = function(searchUser, apiKey){
   }).fail(function(error){
     console.log(error.responseJSON.message);
   });
-  $.get('https://api.github.com/users/' + searchUser + '/repos?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + searchUser + '/repos' if(apikey !== null) {+ '?access_token=' + apiKey}).then(function(response){
     console.log(response);
     $(".user-repositories").empty();
     for (var i = 0; i < 15; i++) {
