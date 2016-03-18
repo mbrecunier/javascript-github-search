@@ -18,14 +18,24 @@
           <input id="search-username" type="text">
           <button type="submit" class="btn-success" id="search-button">Search</button>
         </form>
-        <div class="show-user-info">
+        <div class="row displays" id="show-user-info">
           <span id="username"></span>
-          <span id="name"></span>
-          <span id="user-location"></span>
-          <span id="user-url"></span>
-          <span id="user-avatar"></span>
-          <ul id="user-repositories"></ul>
-
+          <div class="col-md-6">
+            <span id="name"></span>
+            <span id="user-location"></span>
+            <span id="user-url"></span>
+          </div>
+          <div class="col-md-6">
+            <span id="user-avatar"></span>
+          </div>
+        </div>
+        <div class="row displays" id="show-user-repos">
+          <div class="col-md-6">
+            <ul class="user-repositories" id="col-1"></ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="user-repositories" id="col-2"></ul>
+          </div>
         </div>
       </div>
   </body>
