@@ -15,16 +15,21 @@ Enter a GitHub username into a form to see information about that user's public 
     * For Node:
         * Find the correct installer for your operating system on the [Node website](https://nodejs.org/en/download/)
     * For Bower:
+
       ```
       $ npm install bower -g
       ```  
 * In the top level of your directory run:
+
     ```
     $ npm install
+
     ```
+
     ```
     $ bower install
     ```
+
     ```
     $ gulp serve --production
     ```
